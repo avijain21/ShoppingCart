@@ -7,7 +7,7 @@ var express = require('express')
 var aws = require('aws-sdk');
 aws.config.update({region: 'us-east-1'});
 
-aws.config.update({accessKeyId: 'AKIAJ4MURIQ4SDWZ2BDQ', secretAccessKey: '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'});
+aws.config.update({accessKeyId: '****************', secretAccessKey: '********************************'});
 var mysql = require('mysql');
 var ejs = require('ejs');
 var moment = require('moment');
